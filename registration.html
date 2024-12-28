@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form, table {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Registration Form Section -->
+    <h1>Registration Form</h1>
+    <form>
+        <!-- Full Name Input -->
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Gender Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Hobbies Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="Reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="Traveling">
+        <label for="hobby2">Traveling</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="Gaming">
+        <label for="hobby3">Gaming</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- User Data Table Section -->
+    <h2 style="text-align: center;">User Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Hobbies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Sample Row 1 -->
+            <tr>
+                <td>1</td>
+                <td>aishwary</td>
+                <td>aishwary@gmail.com</td>
+                <td>Male</td>
+                <td>Reading, Gaming</td>
+            </tr>
+            <!-- Sample Row 2 -->
+            <tr>
+                <td>2</td>
+                <td>Astitba Singh</td>
+                <td>astitva_singh@gmail.com</td>
+                <td>Female</td>
+                <td>Traveling</td>
+            </tr>
+            <!-- Sample Row 3 -->
+            <tr>
+                <td>3</td>
+                <td>Arul Goyal</td>
+                <td>arulgoyal@gmailcom</td>
+                <td>Other</td>
+                <td>Reading, Traveling</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2024 Aishwary Shreykar Singh
+    </footer>
+</body>
+
+</html>
