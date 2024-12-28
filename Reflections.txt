@@ -1,0 +1,17 @@
+Approach:
+1.I started with the registration form by adding a main heading to indicate the section's purpose.
+2.I used <form> to encapsulate all input elements, ensuring that every field was labeled with <label> for better accessibility.
+3.Input fields for "Full Name," "Email," and "Password" were created with placeholder text and validation attributes like required to ensure completeness.
+4.Gender selection was implemented using radio buttons, and hobbies were listed as checkboxes for multiple choices.
+5.A submit button was added to complete the form.
+6.A separate section with a heading was created for the user data table.
+7.I used <table>, <thead>, and <tbody> to organize data into rows and columns.
+8.The table columns included "User ID," "Full Name," "Email," "Gender," and "Hobbies," with three rows of sample data.
+9.A footer was added with my name and a copyright symbol for a professional touch.
+
+Learning:
+1.Learned how to use various input types like text, email, password, and checkbox effectively.
+2.Discovered the importance of the required attribute and placeholder text for improving user experience.
+3.Explored creating accessible forms using <label> and linking it to inputs with the for attribute.
+4.Understood the structure of tables, including the use of <thead>, <tbody>, <tr>, <th>, and <td> to separate data logically.
+5.Learned how to style tables with CSS for better readability and usability.
